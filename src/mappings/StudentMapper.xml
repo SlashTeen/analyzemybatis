@@ -111,6 +111,7 @@
       </where>
   </delete>
 
+  <!--添加一行注释-->
   <insert id="insert" parameterType="me.mybatis.po.Student">
     insert into STUDENT (SNO, SNAME, SAGE, 
       SSEX)
