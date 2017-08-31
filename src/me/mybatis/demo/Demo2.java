@@ -21,7 +21,6 @@ public class Demo2 {
 //        ServiceMapperProxy serviceMapperProxy=new ServiceMapperProxy();
 //        ServiceMapper proxyInstance=(ServiceMapper) Proxy.newProxyInstance(ServiceMapper.class.getClassLoader(),new Class[]{ServiceMapper.class},serviceMapperProxy);
 //        proxyInstance.sayHello("tomcat");
-        test();
     }
 
     public static void test(){
