@@ -111,13 +111,13 @@
       </where>
   </delete>
 
-  <!--<insert id="insert" parameterType="me.mybatis.po.Student">-->
-    <!--insert into STUDENT (SNO, SNAME, SAGE, -->
-      <!--SSEX)-->
-    <!--values (#{sno,jdbcType=VARCHAR}, #{sname,j-->
-    <!--dbcType=VARCHAR}, #{sage,jdbcType=VARCHAR},-->
-      <!--#{ssex,jdbcType=VARCHAR})-->
-  <!--</insert>-->
+  <insert id="insert" parameterType="me.mybatis.po.Student">
+    insert into STUDENT (SNO, SNAME, SAGE, 
+      SSEX)
+    values (#{sno,jdbcType=VARCHAR}, #{sname,j
+    dbcType=VARCHAR}, #{sage,jdbcType=VARCHAR},
+      #{ssex,jdbcType=VARCHAR})
+  </insert>
 
   <insert id="insertStudent" parameterType="me.mybatis.po.Student" >
       <selectKey keyProperty="sno" order="BEFORE" resultType="String">
